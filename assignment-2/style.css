@@ -24,23 +24,47 @@ border-color: black;
 }
 .chicken{
 	background-color: lightpink;
+	margin-top: 0px;
+	margin-left: 280px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	padding: 10px;
+	font-family: "roboto";
+	border-top: 0px; 
+	border-right: 0px;
 
 }
 .beef{
 	background-color: red;
 	color: white;
+	margin-top: 0px;
+	margin-left: 280px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	padding: 10px;
+	font-family: "roboto";
+	border-top: 0px; 
+	border-right: 0px;
 	}
 .sushi{
 	background-color: yellow;
+	margin-top: 0px;
+	margin-left: 280px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	padding: 10px;
+	font-family: "roboto";
+	border-top: 0px; 
+	border-right: 0px;
 }
 .ourmenu{
 	text-align: center;
 }
 @media (min-width: 992px){
-	.col-lg-4{
+	.col-lg-3{
 	float: left;
 }
-.col-lg-4{
+.col-lg-3{
 	width: 33%;
 }
 }
