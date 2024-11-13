@@ -1,3 +1,69 @@
-body{
-	background color: red;
+.box {
+	background-color: grey;
+	border-color: black;
+	border-style: solid;
+	border-width: thick;
+	margin: 10px;
+	font-family: "roboto";
+	padding-left: 8px;
 }
+
+.heading{
+text-align: center;
+border-color: black;
+ border-style: solid; 
+ margin-top: 0px;
+	margin-left: 280px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	padding: 10px;
+	font-family: "roboto";
+	border-top: 0px; 
+	border-right: 0px;
+
+}
+.chicken{
+	background-color: lightpink;
+
+}
+.beef{
+	background-color: red;
+	color: white;
+	}
+.sushi{
+	background-color: yellow;
+}
+.ourmenu{
+	text-align: center;
+}
+@media (min-width: 992px){
+	.col-lg-4{
+	float: left;
+}
+.col-lg-4{
+	width: 33%;
+}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6{
+		float: left;
+	}
+	.col-md-6{
+		width: 50%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
